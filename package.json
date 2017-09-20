@@ -1,0 +1,28 @@
+{
+  "name": "mongo-scraper",
+  "version": "1.0.0",
+  "description": "This app will allow you to save articles and comment on articles",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glawing42/mongo-scraper.git"
+  },
+  "author": "Graham Lawing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glawing42/mongo-scraper/issues"
+  },
+  "homepage": "https://github.com/glawing42/mongo-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.12",
+    "request": "^2.82.0"
+  }
+}
